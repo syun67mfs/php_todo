@@ -3,7 +3,10 @@
         My BBS
     </x-slot>
 
-    <h1>My BBS</h1>
+    <h1>
+        <span>My BBS</span>
+        <a href="{{ route('posts.create') }}">[Add]</a>
+    </h1>
     {{-- <ul>
         {{-- <li><?php echo htmlspecialchars($posts[0], ENT_QUOTES, 'UTF-8'); ?></li> --}}
         {{-- <li>{{ $posts[0] }}</li>
